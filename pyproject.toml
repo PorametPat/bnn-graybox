@@ -1,0 +1,15 @@
+[project]
+name = "paper-2-code-v2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "inspeqtor",
+    "scienceplots>=2.1.1",
+    "seaborn>=0.13.2",
+    "typer>=0.17.4",
+]
+
+[tool.uv.sources]
+inspeqtor = { git = "https://github.com/PorametPat/inspeqtor.git" }
