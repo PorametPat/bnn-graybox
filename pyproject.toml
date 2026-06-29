@@ -5,9 +5,13 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "alive-progress>=3.3.0",
     "inspeqtor",
+    "ipywidgets>=8.1.8",
     "scienceplots>=2.1.1",
     "seaborn>=0.13.2",
+    "statsmodels>=0.14.6",
+    "sympy>=1.14.0",
     "typer>=0.17.4",
 ]
 
